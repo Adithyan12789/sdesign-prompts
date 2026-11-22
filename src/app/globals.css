@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #f5f1ea;
+  --color-parchment: #efe9df;
+  --color-charcoal: #1c1b1a;
+  --color-ink: #26241f;
+  --color-stone-warm: #8a8175;
+  --color-bronze: #a5814f;
+  --color-bronze-dark: #86663a;
+  --color-line: #ddd5c6;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-ivory); color: var(--color-charcoal); font-family: var(--font-body); }
+::selection { background: #a5814f; color: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+.prompt-scroll::-webkit-scrollbar { height: 8px; width: 8px; }
+.prompt-scroll::-webkit-scrollbar-thumb { background: #4a463f; border-radius: 4px; }

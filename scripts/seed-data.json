@@ -1,0 +1,837 @@
+{
+ "categories": [
+  {
+   "id": "seed-cat-exterior",
+   "name": "Exterior Architecture",
+   "slug": "exterior-architecture",
+   "description": "Facades, towers and street-level reveals of buildings in their urban context.",
+   "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-interior",
+   "name": "Interior Architecture",
+   "slug": "interior-architecture",
+   "description": "Interior pans, room reveals and material-focused interior sequences.",
+   "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-transformation",
+   "name": "Building Transformation",
+   "slug": "building-transformation",
+   "description": "Before-and-after sequences: renovation, restoration and material change.",
+   "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-timelapse",
+   "name": "Construction Timelapse",
+   "slug": "construction-timelapse",
+   "description": "Buildings rising frame by frame, from foundations to finished facade.",
+   "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-walkthrough",
+   "name": "Architectural Walkthrough",
+   "slug": "architectural-walkthrough",
+   "description": "Continuous camera journeys through plans, courtyards and interiors.",
+   "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-landscape",
+   "name": "Landscape Architecture",
+   "slug": "landscape-architecture",
+   "description": "Gardens, courtyards, terraces and the landscape around the building.",
+   "image": "https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-daynight",
+   "name": "Day-to-Night Transformation",
+   "slug": "day-to-night-transformation",
+   "description": "A single scene carried from daylight through dusk into night.",
+   "image": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-viz",
+   "name": "Architectural Visualization",
+   "slug": "architectural-visualization",
+   "description": "Concept and competition visuals: massing, materials and atmosphere studies.",
+   "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+   "id": "seed-cat-cinematic",
+   "name": "Cinematic Architectural Videos",
+   "slug": "cinematic-architectural-videos",
+   "description": "Film-language architecture: slow reveals, aerial arcs and dramatic light.",
+   "image": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600&auto=format&fit=crop"
+  }
+ ],
+ "platforms": [
+  {
+   "id": "seed-pf-runway",
+   "name": "Runway",
+   "slug": "runway",
+   "url": "https://runwayml.com"
+  },
+  {
+   "id": "seed-pf-kling",
+   "name": "Kling AI",
+   "slug": "kling",
+   "url": "https://klingai.com"
+  },
+  {
+   "id": "seed-pf-luma",
+   "name": "Luma Dream Machine",
+   "slug": "luma",
+   "url": "https://lumalabs.ai"
+  },
+  {
+   "id": "seed-pf-pika",
+   "name": "Pika",
+   "slug": "pika",
+   "url": "https://pika.art"
+  },
+  {
+   "id": "seed-pf-veo",
+   "name": "Google Veo",
+   "slug": "veo",
+   "url": "https://deepmind.google/technologies/veo"
+  },
+  {
+   "id": "seed-pf-sora",
+   "name": "Sora",
+   "slug": "sora",
+   "url": "https://openai.com/sora"
+  },
+  {
+   "id": "seed-pf-hailuo",
+   "name": "Hailuo (MiniMax)",
+   "slug": "hailuo",
+   "url": "https://hailuoai.video"
+  }
+ ],
+ "resources": [
+  {
+   "id": "seed-glass-tower-reveal",
+   "shortDescription": "Example placeholder prompt: a slow rising reveal of a glass office tower at morning light.",
+   "description": "Placeholder resource used to demonstrate the library layout, prompt viewer and download flow. Replace this text, the prompt and the attached files with the real guide through the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "runway",
+    "kling"
+   ],
+   "difficulty": "Beginner",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nSlow cinematic camera rise along a glass office tower facade, morning light, reflections moving across the curtain wall, city street below waking up, photorealistic architectural video, steady motion, no people close to camera.",
+   "instructions": [
+    {
+     "title": "Prepare the still",
+     "body": "Start from a clean, high-resolution exterior photograph with the full tower in frame and no motion blur."
+    },
+    {
+     "title": "Paste the prompt",
+     "body": "Copy the prompt into your video platform and set the duration to 8–10 seconds for a controlled rise."
+    },
+    {
+     "title": "Direct the motion",
+     "body": "Keep camera motion to a single axis. If the model adds a pan, reduce motion strength and regenerate."
+    },
+    {
+     "title": "Finish",
+     "body": "Trim the first and last half-second, where AI video artefacts are most common."
+    }
+   ],
+   "files": [
+    {
+     "id": "glass-tower-reveal-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-glass-tower-reveal-prompt.txt",
+     "originalName": "glass-tower-reveal-prompt.txt"
+    },
+    {
+     "id": "glass-tower-reveal-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-glass-tower-reveal-guide.pdf",
+     "originalName": "glass-tower-reveal-guide.pdf"
+    },
+    {
+     "id": "glass-tower-reveal-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-glass-tower-reveal-bundle.zip",
+     "originalName": "glass-tower-reveal-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": true,
+   "status": "published",
+   "downloads": 412,
+   "views": 2980,
+   "createdAt": "2026-11-18T09:00:00.000Z",
+   "updatedAt": "2026-11-18T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Glass Tower Reveal — Placeholder Example",
+   "slug": "glass-tower-reveal",
+   "category": "exterior-architecture",
+   "type": "prompt"
+  },
+  {
+   "id": "seed-courtyard-house-walkthrough",
+   "shortDescription": "Example placeholder guide: a continuous walkthrough from street gate to inner courtyard.",
+   "description": "Placeholder resource demonstrating the guide format with step-by-step instructions. Replace with the real walkthrough workflow via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "luma"
+   ],
+   "difficulty": "Intermediate",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nContinuous forward walkthrough through a house entrance into a sunlit inner courtyard, smooth steady camera at eye level, warm afternoon light, architectural photography style, no cuts.",
+   "instructions": [
+    {
+     "title": "Plan the path",
+     "body": "Sketch the camera path first: gate, passage, courtyard. One continuous move, no turns sharper than 45 degrees."
+    },
+    {
+     "title": "Generate in segments",
+     "body": "Produce three short clips (approach, passage, courtyard) with matching light direction, then join them on the cut points."
+    },
+    {
+     "title": "Match the light",
+     "body": "Keep the sun position consistent across segments; mismatched shadows are the most visible join artefact."
+    },
+    {
+     "title": "Stabilise and grade",
+     "body": "Apply light stabilisation and a single warm grade across all segments so they read as one shot."
+    }
+   ],
+   "files": [
+    {
+     "id": "courtyard-house-walkthrough-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-courtyard-house-walkthrough-prompt.txt",
+     "originalName": "courtyard-house-walkthrough-prompt.txt"
+    },
+    {
+     "id": "courtyard-house-walkthrough-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-courtyard-house-walkthrough-guide.pdf",
+     "originalName": "courtyard-house-walkthrough-guide.pdf"
+    },
+    {
+     "id": "courtyard-house-walkthrough-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-courtyard-house-walkthrough-bundle.zip",
+     "originalName": "courtyard-house-walkthrough-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": true,
+   "status": "published",
+   "downloads": 356,
+   "views": 2411,
+   "createdAt": "2026-11-15T09:00:00.000Z",
+   "updatedAt": "2026-11-15T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Courtyard House Walkthrough — Placeholder Guide",
+   "slug": "courtyard-house-walkthrough",
+   "category": "architectural-walkthrough",
+   "type": "guide"
+  },
+  {
+   "id": "seed-facade-transformation-old-to-new",
+   "shortDescription": "Example placeholder workflow: morph a weathered facade into its renovated state in one shot.",
+   "description": "Placeholder premium resource demonstrating access control on downloads. Replace with the real transformation workflow via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "kling"
+   ],
+   "difficulty": "Advanced",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nLocked-off camera on a weathered brick facade; the surface gradually restores itself — mortar repoints, windows clear, stone cleans — ending as a fully renovated facade in the same light, photorealistic, no camera movement.",
+   "instructions": [
+    {
+     "title": "Align the pair",
+     "body": "Prepare matched before/after stills from the identical viewpoint; alignment matters more than resolution."
+    },
+    {
+     "title": "Use first/last frame control",
+     "body": "Set the weathered image as the first frame and the renovated image as the last frame where the platform supports it."
+    },
+    {
+     "title": "Control the transition",
+     "body": "Ask for a gradual, even transformation. Localised morphing usually means the stills are misaligned."
+    },
+    {
+     "title": "Clean the edges",
+     "body": "Mask and re-composite window reflections in an editor if the model warps them."
+    }
+   ],
+   "files": [
+    {
+     "id": "facade-transformation-old-to-new-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-facade-transformation-old-to-new-prompt.txt",
+     "originalName": "facade-transformation-old-to-new-prompt.txt"
+    },
+    {
+     "id": "facade-transformation-old-to-new-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-facade-transformation-old-to-new-guide.pdf",
+     "originalName": "facade-transformation-old-to-new-guide.pdf"
+    },
+    {
+     "id": "facade-transformation-old-to-new-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-facade-transformation-old-to-new-bundle.zip",
+     "originalName": "facade-transformation-old-to-new-bundle.zip"
+    }
+   ],
+   "access": "premium",
+   "featured": true,
+   "status": "published",
+   "downloads": 289,
+   "views": 1975,
+   "createdAt": "2026-11-12T09:00:00.000Z",
+   "updatedAt": "2026-11-12T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Facade Transformation: Old to New — Placeholder Workflow",
+   "slug": "facade-transformation-old-to-new",
+   "category": "building-transformation",
+   "type": "workflow"
+  },
+  {
+   "id": "seed-construction-timelapse-single-photo",
+   "shortDescription": "Example placeholder prompt: a building rising in timelapse from one site photograph.",
+   "description": "Placeholder resource demonstrating the prompt format for timelapse work. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "pika"
+   ],
+   "difficulty": "Intermediate",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nConstruction timelapse from a fixed viewpoint: foundations, frame rising floor by floor, crane moving, facade panels installed, ending with the completed building, fast clouds, changing daylight, photorealistic.",
+   "instructions": [
+    {
+     "title": "Choose the viewpoint",
+     "body": "Use a wide, elevated site photo with room above the finished building height."
+    },
+    {
+     "title": "Prompt the sequence",
+     "body": "List the construction stages in order; models follow listed sequences more reliably than single sentences."
+    },
+    {
+     "title": "Extend in passes",
+     "body": "Generate the first stage, then extend from the last frame for each following stage."
+    }
+   ],
+   "files": [
+    {
+     "id": "construction-timelapse-single-photo-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-construction-timelapse-single-photo-prompt.txt",
+     "originalName": "construction-timelapse-single-photo-prompt.txt"
+    },
+    {
+     "id": "construction-timelapse-single-photo-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-construction-timelapse-single-photo-guide.pdf",
+     "originalName": "construction-timelapse-single-photo-guide.pdf"
+    },
+    {
+     "id": "construction-timelapse-single-photo-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-construction-timelapse-single-photo-bundle.zip",
+     "originalName": "construction-timelapse-single-photo-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": false,
+   "status": "published",
+   "downloads": 198,
+   "views": 1204,
+   "createdAt": "2026-11-10T09:00:00.000Z",
+   "updatedAt": "2026-11-10T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Construction Timelapse from a Single Photo — Placeholder",
+   "slug": "construction-timelapse-single-photo",
+   "category": "construction-timelapse",
+   "type": "prompt"
+  },
+  {
+   "id": "seed-day-to-night-facade-transition",
+   "shortDescription": "Example placeholder prompt: carry one facade from noon through dusk to lit night.",
+   "description": "Placeholder resource demonstrating day-to-night prompt structure. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "runway"
+   ],
+   "difficulty": "Beginner",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nStatic camera on a residential facade as daylight fades through golden hour into blue dusk; windows light up one by one, warm interior glow, deep blue sky, photorealistic timelapse feel.",
+   "instructions": [
+    {
+     "title": "Lock the camera",
+     "body": "Any camera drift breaks the day-to-night illusion; prompt for a static shot explicitly."
+    },
+    {
+     "title": "Sequence the light",
+     "body": "Name the phases in order — noon, golden hour, dusk, night — so the transition stays even."
+    },
+    {
+     "title": "Windows last",
+     "body": "Ask for windows to light near the end; early window light is the most common failure."
+    }
+   ],
+   "files": [
+    {
+     "id": "day-to-night-facade-transition-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-day-to-night-facade-transition-prompt.txt",
+     "originalName": "day-to-night-facade-transition-prompt.txt"
+    },
+    {
+     "id": "day-to-night-facade-transition-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-day-to-night-facade-transition-guide.pdf",
+     "originalName": "day-to-night-facade-transition-guide.pdf"
+    },
+    {
+     "id": "day-to-night-facade-transition-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-day-to-night-facade-transition-bundle.zip",
+     "originalName": "day-to-night-facade-transition-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": false,
+   "status": "published",
+   "downloads": 264,
+   "views": 1688,
+   "createdAt": "2026-11-08T09:00:00.000Z",
+   "updatedAt": "2026-11-08T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Day-to-Night Facade Transition — Placeholder",
+   "slug": "day-to-night-facade-transition",
+   "category": "day-to-night-transformation",
+   "type": "prompt"
+  },
+  {
+   "id": "seed-minimal-interior-pan",
+   "shortDescription": "Example placeholder prompt: a slow pan across a calm, minimal living space.",
+   "description": "Placeholder resource demonstrating interior prompt structure. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1600&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "luma",
+    "veo"
+   ],
+   "difficulty": "Beginner",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nSlow horizontal pan across a minimal living room, soft daylight from large windows, linen and oak textures, gentle shadows moving, calm architectural interior photography, no people.",
+   "instructions": [
+    {
+     "title": "Declutter the still",
+     "body": "Interior models amplify clutter; start from the cleanest composition you have."
+    },
+    {
+     "title": "One motion only",
+     "body": "A pan or a push-in — never both. Combined moves are where interiors warp."
+    },
+    {
+     "title": "Protect straight lines",
+     "body": "If door frames bend, lower the motion amount before changing the prompt."
+    }
+   ],
+   "files": [
+    {
+     "id": "minimal-interior-pan-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-minimal-interior-pan-prompt.txt",
+     "originalName": "minimal-interior-pan-prompt.txt"
+    },
+    {
+     "id": "minimal-interior-pan-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-minimal-interior-pan-guide.pdf",
+     "originalName": "minimal-interior-pan-guide.pdf"
+    },
+    {
+     "id": "minimal-interior-pan-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-minimal-interior-pan-bundle.zip",
+     "originalName": "minimal-interior-pan-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": false,
+   "status": "published",
+   "downloads": 231,
+   "views": 1430,
+   "createdAt": "2026-11-06T09:00:00.000Z",
+   "updatedAt": "2026-11-06T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Minimal Interior Pan — Placeholder",
+   "slug": "minimal-interior-pan",
+   "category": "interior-architecture",
+   "type": "prompt"
+  },
+  {
+   "id": "seed-landscape-courtyard-flyover",
+   "shortDescription": "Example placeholder guide: a low aerial pass over a planted courtyard.",
+   "description": "Placeholder premium guide demonstrating the format. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "veo"
+   ],
+   "difficulty": "Intermediate",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nLow aerial flyover across a planted courtyard garden toward a stone pavilion, morning mist in the planting beds, slow steady drone movement, cinematic architectural landscape.",
+   "instructions": [
+    {
+     "title": "Set the altitude in words",
+     "body": "Say \"low aerial, just above the planting\" — models interpret height from language, not numbers."
+    },
+    {
+     "title": "Give the camera a destination",
+     "body": "Name the building the move ends on; open-ended flyovers drift."
+    },
+    {
+     "title": "Watch the foliage",
+     "body": "Planting is the first thing to shimmer; reduce saturation slightly in the grade to hide it."
+    }
+   ],
+   "files": [
+    {
+     "id": "landscape-courtyard-flyover-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-landscape-courtyard-flyover-prompt.txt",
+     "originalName": "landscape-courtyard-flyover-prompt.txt"
+    },
+    {
+     "id": "landscape-courtyard-flyover-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-landscape-courtyard-flyover-guide.pdf",
+     "originalName": "landscape-courtyard-flyover-guide.pdf"
+    },
+    {
+     "id": "landscape-courtyard-flyover-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-landscape-courtyard-flyover-bundle.zip",
+     "originalName": "landscape-courtyard-flyover-bundle.zip"
+    }
+   ],
+   "access": "premium",
+   "featured": false,
+   "status": "published",
+   "downloads": 142,
+   "views": 986,
+   "createdAt": "2026-11-04T09:00:00.000Z",
+   "updatedAt": "2026-11-04T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Landscape Courtyard Flyover — Placeholder Guide",
+   "slug": "landscape-courtyard-flyover",
+   "category": "landscape-architecture",
+   "type": "guide"
+  },
+  {
+   "id": "seed-cinematic-museum-atrium",
+   "shortDescription": "Example placeholder bundle: atrium reveal, light study and visitor-scale shots for one space.",
+   "description": "Placeholder premium bundle demonstrating multi-file resources (prompt file, guide PDF and ZIP bundle). Replace with the real bundle via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "sora",
+    "runway"
+   ],
+   "difficulty": "Advanced",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nGrand museum atrium, camera arcs slowly from the entrance toward a sweeping staircase as a shaft of sunlight moves across the stone floor, visitors as soft distant silhouettes, cinematic architectural film.",
+   "instructions": [
+    {
+     "title": "Build the shot list",
+     "body": "Three shots: wide reveal, light study, human scale. Generate them in that order so light direction matches."
+    },
+    {
+     "title": "Keep people distant",
+     "body": "Close figures break realism; keep visitors as background silhouettes."
+    },
+    {
+     "title": "Grade as one film",
+     "body": "One LUT across all three shots sells the single-location illusion."
+    }
+   ],
+   "files": [
+    {
+     "id": "cinematic-museum-atrium-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-cinematic-museum-atrium-prompt.txt",
+     "originalName": "cinematic-museum-atrium-prompt.txt"
+    },
+    {
+     "id": "cinematic-museum-atrium-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-cinematic-museum-atrium-guide.pdf",
+     "originalName": "cinematic-museum-atrium-guide.pdf"
+    },
+    {
+     "id": "cinematic-museum-atrium-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-cinematic-museum-atrium-bundle.zip",
+     "originalName": "cinematic-museum-atrium-bundle.zip"
+    }
+   ],
+   "access": "premium",
+   "featured": true,
+   "status": "published",
+   "downloads": 317,
+   "views": 2210,
+   "createdAt": "2026-11-02T09:00:00.000Z",
+   "updatedAt": "2026-11-02T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Cinematic Museum Atrium — Placeholder Bundle",
+   "slug": "cinematic-museum-atrium",
+   "category": "cinematic-architectural-videos",
+   "type": "bundle"
+  },
+  {
+   "id": "seed-parametric-tower-visualization",
+   "shortDescription": "Example placeholder workflow: orbit a twisting parametric tower concept visual.",
+   "description": "Placeholder resource demonstrating visualization workflows. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "kling",
+    "hailuo"
+   ],
+   "difficulty": "Intermediate",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nSlow orbital camera move around a twisting parametric tower concept model, white facade panels with soft shadows, neutral studio sky, architectural visualization style, clean and minimal.",
+   "instructions": [
+    {
+     "title": "Export a clean still",
+     "body": "Render the concept model against a plain sky; busy backgrounds fight the orbit."
+    },
+    {
+     "title": "Limit the arc",
+     "body": "Ask for a quarter orbit at most per generation, then chain from the last frame."
+    },
+    {
+     "title": "Fix panel shimmer",
+     "body": "A slight blur pass on the facade in post hides panel flicker without softening the silhouette."
+    }
+   ],
+   "files": [
+    {
+     "id": "parametric-tower-visualization-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-parametric-tower-visualization-prompt.txt",
+     "originalName": "parametric-tower-visualization-prompt.txt"
+    },
+    {
+     "id": "parametric-tower-visualization-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-parametric-tower-visualization-guide.pdf",
+     "originalName": "parametric-tower-visualization-guide.pdf"
+    },
+    {
+     "id": "parametric-tower-visualization-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-parametric-tower-visualization-bundle.zip",
+     "originalName": "parametric-tower-visualization-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": false,
+   "status": "published",
+   "downloads": 176,
+   "views": 1102,
+   "createdAt": "2026-10-30T09:00:00.000Z",
+   "updatedAt": "2026-10-30T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Parametric Tower Visualization — Placeholder Workflow",
+   "slug": "parametric-tower-visualization",
+   "category": "architectural-visualization",
+   "type": "workflow"
+  },
+  {
+   "id": "seed-heritage-renovation-reveal",
+   "shortDescription": "Example placeholder guide: reveal a restored heritage interior from its derelict state.",
+   "description": "Placeholder resource demonstrating the guide format for renovation work. Replace with real content via the admin dashboard.",
+   "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop",
+   "previewImages": [
+    "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600&auto=format&fit=crop"
+   ],
+   "platforms": [
+    "runway"
+   ],
+   "difficulty": "Intermediate",
+   "promptContent": "[EXAMPLE PROMPT — placeholder]\nInterior of a derelict heritage hall gradually restoring: plaster repairs, timber beams return, tall windows clear, warm light returns, locked camera, photorealistic renovation reveal.",
+   "instructions": [
+    {
+     "title": "Respect the fabric",
+     "body": "List the elements that must survive unchanged — models love to \"improve\" heritage details away."
+    },
+    {
+     "title": "Restore in order",
+     "body": "Structure first, surfaces second, light last; the sequence reads as real renovation."
+    },
+    {
+     "title": "Compare against the survey",
+     "body": "Check the final frame against survey photos before publishing the sequence."
+    }
+   ],
+   "files": [
+    {
+     "id": "heritage-renovation-reveal-txt",
+     "label": "Prompt file",
+     "kind": "prompt-txt",
+     "format": "TXT",
+     "size": 0,
+     "storageKey": "sample-heritage-renovation-reveal-prompt.txt",
+     "originalName": "heritage-renovation-reveal-prompt.txt"
+    },
+    {
+     "id": "heritage-renovation-reveal-pdf",
+     "label": "Step-by-step guide",
+     "kind": "guide-pdf",
+     "format": "PDF",
+     "size": 0,
+     "storageKey": "sample-heritage-renovation-reveal-guide.pdf",
+     "originalName": "heritage-renovation-reveal-guide.pdf"
+    },
+    {
+     "id": "heritage-renovation-reveal-zip",
+     "label": "Complete resource bundle",
+     "kind": "bundle-zip",
+     "format": "ZIP",
+     "size": 0,
+     "storageKey": "sample-heritage-renovation-reveal-bundle.zip",
+     "originalName": "heritage-renovation-reveal-bundle.zip"
+    }
+   ],
+   "access": "free",
+   "featured": false,
+   "status": "published",
+   "downloads": 154,
+   "views": 940,
+   "createdAt": "2026-10-28T09:00:00.000Z",
+   "updatedAt": "2026-10-28T09:00:00.000Z",
+   "placeholder": true,
+   "title": "Heritage Renovation Reveal — Placeholder Guide",
+   "slug": "heritage-renovation-reveal",
+   "category": "building-transformation",
+   "type": "guide"
+  }
+ ],
+ "content": {
+  "heroEyebrow": "The Architectural AI Video Library",
+  "heroTitle": "Prompts & guides for architectural film",
+  "heroSubtitle": "A curated library of AI video prompts, step-by-step guides and downloadable resource bundles for architects and visualization artists.",
+  "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2400&auto=format&fit=crop",
+  "studioTitle": "A working library, not a gallery",
+  "studioText": "Every resource in this library is a complete working package: the prompt itself, a step-by-step guide, reference imagery and downloadable files, organised by category, platform and difficulty so you can find the right starting point in seconds.",
+  "studioImage": "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1600&auto=format&fit=crop",
+  "footerText": "A premium resource library for AI architectural video creation.",
+  "instagram": "https://instagram.com",
+  "youtube": "https://youtube.com",
+  "x": "https://x.com",
+  "linkedin": "https://linkedin.com"
+ }
+}
